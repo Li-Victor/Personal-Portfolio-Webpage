@@ -1,0 +1,24 @@
+
+.navbar {
+	background-color: #74FDF2;
+	height: 10vh;
+	padding: 2vh 5vw 2.5vh 5vw;
+}
+
+.navbar .container-fluid .navbar-header button {
+	background-color: grey;
+}
+
+.navbar .container-fluid .navbar-header .icon-bar {
+	background-color: red;
+}
+.navbar-brand {
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 32px;
+}
+
+ul{
+	background-color: #74FDF2;
+}
