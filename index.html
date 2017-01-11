@@ -5,7 +5,7 @@
         <title>Personal Portfolio Webpage</title>
 			<meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
+        <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -19,26 +19,52 @@
 		<div class="container-fluid">
 			<div class="navbar-header">
 
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">    				<span class="sr-only">Toggle navigation</span>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsing" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
     				<span class="icon-bar"></span>
     				<span class="icon-bar"></span>
     				<span class="icon-bar"></span>
 				</button>
 
-				<div class="navbar-brand">Victor Li</div>
+				<a class="navbar-brand" href="#">Victor Li</a>
 
 			</div>
 
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<div class="collapse navbar-collapse" id="navbar-collapsing">
 				<ul class="nav navbar-nav navbar-right">
 				    <li class="active"><a href="#">About</a></li>
     				<li><a href="#">Portfolio</a></li>
     				<li><a href="#">Contact</a></li>
 				</ul>
 			</div>
-
 		</div>
-	</nav>
+	</nav> <!-- navbar -->
+
+    <main class="container-fluid">
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1>Hi! I'm Victor</h1>
+                        <p>
+                            A full-stack web developer
+                        </p>
+                        <a href="https://www.linkedin.com/in/victor-li" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://github.com/Li-Victor" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        <a href="https://www.freecodecamp.com/li-victor" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+                    </div> <!-- col-xs-8 -->
+
+                    <div class="col-md-4">
+                        <img src="./headshot.jpg" alt="headshot of Victor Li" class="img-circle img-responsive">
+                    </div>
+
+                </div> <!-- row -->
+
+            </div> <!-- container -->
+        </div> <!-- jumbotron -->
+    </main> <!-- container-fluid main -->
+
+
 
     </body>
 </html>

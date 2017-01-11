@@ -1,8 +1,15 @@
+body {
+	padding-top: 10vh;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+	font-family: 'Open Sans', sans-serif;
+}
 
 .navbar {
-	background-color: #74FDF2;
+	background-color: #72C0E4;
 	height: 10vh;
-	padding: 2vh 5vw 2.5vh 5vw;
+	padding: 2vh 10vw 2.5vh 10vw;
 }
 
 .navbar .container-fluid .navbar-header button {
@@ -12,6 +19,7 @@
 .navbar .container-fluid .navbar-header .icon-bar {
 	background-color: red;
 }
+
 .navbar-brand {
 	margin: auto;
 	font-family: 'Open Sans', sans-serif;
@@ -19,6 +27,25 @@
 	font-size: 32px;
 }
 
-ul{
-	background-color: #74FDF2;
+li {
+	background-color: #E7E7E7;
+	margin-left: 15px;
+}
+
+main.container-fluid {
+	padding: 0;
+}
+
+main.container-fluid .jumbotron {
+	border-radius: 0px;
+	background-color: #888888;
+	text-align: left;
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+
+.jumbotron .container .row .col-md-8 > a i {
+	border-radius: 50%;
+	font-size: 5vh;
+	margin-right: 2vw;
 }
