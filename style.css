@@ -31,6 +31,11 @@ h1,h2,h3,h4,h5,h6,p {
 	font-size: 32px;
 }
 
+div.container-fluid #navbar-collapsing ul li a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 li {
 	background-color: #E7E7E7;
 	margin-left: 15px;
